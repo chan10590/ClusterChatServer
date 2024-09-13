@@ -11,4 +11,5 @@ class GroupModel {
     vector<Group> queryGroups(int userid);
     vector<int> queryGroupUsers(int userid, int groupid);
 };
+
 #endif  // INCLUDE_GROUPMODEL_H_
