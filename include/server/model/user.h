@@ -27,4 +27,5 @@ class User {
     string _password;
     string _state;
 };
+
 #endif  // INCLUDE_USER_H_
