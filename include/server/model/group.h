@@ -27,4 +27,5 @@ class Group {
     string _desc;
     vector<GroupUser> _users;
 };
+
 #endif  // INCLUDE_GROUP_H_
