@@ -11,4 +11,5 @@ class UserModel {
     bool updateState(User user);
     void resetState();
 };
+
 #endif  // INCLUDE_USERMODEL_H_
