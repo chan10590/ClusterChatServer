@@ -1,0 +1,6 @@
+aux_source_directory(. SRC_LIST)
+aux_source_directory(./db SRC_DB_LIST)
+aux_source_directory(./model SRC_MODEL_LIST)
+aux_source_directory(./redis SRC_REDIS_LIST)
+add_executable(Server ${SRC_LIST} ${SRC_DB_LIST} ${SRC_MODEL_LIST} ${SRC_REDIS_LIST})
+target_link_libraries(Server ${MUDUO_NET_LIBRARY} ${MUDUO_BASE_LIBRARY} mysqlclient hiredis pthread)
