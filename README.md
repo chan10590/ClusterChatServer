@@ -1,9 +1,9 @@
 项目源于[https://www.bilibili.com/video/BV1yM4m127ZF?p=1&vd_source=d96e0fd0c45fcb6462ea944fb43223a3](https://www.bilibili.com/video/BV1yM4m127ZF?p=1&vd_source=d96e0fd0c45fcb6462ea944fb43223a3)
 
-![alt text](image.png)
+![alt text](README_image/image.png)
 # 1、nginx配置TCP负载均衡
 [https://blog.csdn.net/weixin_48494235/article/details/141924179](https://blog.csdn.net/weixin_48494235/article/details/141924179)
-![alt text](image-1.png)
+![alt text](README_image/image-1.png)
 
 # 2、先利用mysql建表
 ```sql
@@ -47,7 +47,7 @@ cd ./bin  # 切换到bin目录下
 ./Server 127.0.0.1 9528
 ./Client 127.0.0.1 9000
 ```
-![alt text](image-2.png)
+![alt text](README_image/image-2.png)
  
 测试：
 
