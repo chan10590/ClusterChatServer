@@ -1,3 +1,5 @@
+项目源于[https://www.bilibili.com/video/BV1yM4m127ZF?p=1&vd_source=d96e0fd0c45fcb6462ea944fb43223a3](https://www.bilibili.com/video/BV1yM4m127ZF?p=1&vd_source=d96e0fd0c45fcb6462ea944fb43223a3)
+
 ![alt text](image.png)
 # 1、nginx配置TCP负载均衡
 [https://blog.csdn.net/weixin_48494235/article/details/141924179](https://blog.csdn.net/weixin_48494235/article/details/141924179)
