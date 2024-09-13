@@ -1,0 +1,30 @@
+BasedOnStyle: Google
+IndentWidth: 4
+
+Language: Cpp
+
+ColumnLimit: 120
+IncludeBlocks: Preserve
+
+DerivePointerAlignment: false
+PointerAlignment: Left
+
+# 类访问属性格式
+AccessModifierOffset: -3
+IndentAccessModifiers: false
+# BreakBeforeBraces: Allman
+
+# 头文件顺序
+SortIncludes: true
+IncludeCategories:
+  - Regex: '^"(.*).h"$'
+    Priority: 5  # 项目中的其他 .h 文件
+  - Regex: '^"(.*).cpp"$'
+    Priority: 1  # 当前 .cpp 文件对应的 .h 文件
+  - Regex: '^\<.*\.c\>'
+    Priority: 2  # C 系统头文件
+  - Regex: '^\<.*\.h\>'
+    Priority: 3  # C++ 系统头文件
+  - Regex: '^<.*>'
+    Priority: 4  # 其他系统头文件
+    
